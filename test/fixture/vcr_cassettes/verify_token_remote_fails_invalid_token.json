@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"idToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM3NDE5MDAsImlhdCI6MTY2MzczODMwMCwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiSTBHOXdqcEt0ZllIc3R2WmdoaWE5QSIsIm5iZiI6MTY2MzczODMwMCwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYifQ.h2QF__wPH4nVsPyd0v6kcIi8sJWDkG1xByb5gdEYGoJN6Ok7UIbqwRRfZX0uySerUR2vy1sH9Kxpy_geZOREdQ\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/token/verify/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"detail\":\"Invalid Token\"}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 21:40:01 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "26",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 401,
+      "type": "ok"
+    }
+  }
+]

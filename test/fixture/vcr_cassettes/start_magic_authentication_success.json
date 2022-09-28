@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "{\"email\":\"rickhenry@rickhenry.dev\"}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer Ft0QAAR2_KvkYtMRH3tKjdiIP_Y8DjPC5wofFM5Iq58"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/magic/request/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "\"Check your email for a login link.\"",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Tue, 20 Sep 2022 03:11:43 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "36",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

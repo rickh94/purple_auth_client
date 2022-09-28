@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"code\":\"123456\",\"email\":\"rickhenry@rickhenry.dev\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/otp/confirm/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"detail\":\"Invalid Code.\"}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 05:28:02 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "26",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 401,
+      "type": "ok"
+    }
+  }
+]

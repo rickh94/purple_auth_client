@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"idToken\":\"123\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/token/verify/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"detail\":\"Not Found\"}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 21:40:01 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "26",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]

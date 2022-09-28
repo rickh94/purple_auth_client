@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"idToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM3OTk2NjYsImlhdCI6MTY2Mzc5NjA2NiwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiZUlDdUN2elNNSWFGOFdHLS1lT2dRdyIsIm5iZiI6MTY2Mzc5NjA2Niwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYifQ.k77ajj46uOkO-Vco_PNE8B09hTriPgvIm5R2lGEnSx0zvSjoeeLvxNWJ48P5JfxYBQjqZoTZcdIWimBpr-BmTw\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/token/verify/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"headers\":{\"alg\":\"ES256\",\"typ\":\"JWT\"},\"claims\":{\"exp\":1663799666,\"iat\":1663796066,\"iss\":\"https://purpleauth.com/app/eb1c4225-c76f-4eee-acfd-bb078f834e7f\",\"jti\":\"eICuCvzSMIaF8WG--eOgQw\",\"nbf\":1663796066,\"sub\":\"rickhenry@rickhenry.dev\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 21:36:32 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "236",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

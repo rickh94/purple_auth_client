@@ -7,15 +7,43 @@ defmodule PurpleAuthClient.MixProject do
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      build_embedded: Mix.env() == :prod,
+      description: description(),
+      deps: deps(),
+      package: package(),
+      preferred_cli_env: [
+        vcr: :test,
+        "vcr.delete": :test,
+        "vcr.check": :test,
+        "vcr.show": :test
+      ],
+      name: "Purple Auth Client",
+      docs: [
+        main: "PurpleAuthClient",
+        extras: ["README.md"]
+      ]
+    ]
+  end
+
+  defp description do
+    """
+    Client for my Purple Auth passwordless authentication service.
+    """
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README*", "LICENSE"],
+      maintainers: ["Rick Henry"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => ""}
     ]
   end
 
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
-      applications: applications(Mix.env)
+      extra_applications: [:logger]
     ]
   end
 
@@ -26,7 +54,7 @@ defmodule PurpleAuthClient.MixProject do
       {:joken, "~> 2.5"},
       {:jason, "~> 1.3"},
       {:ex_doc, "~> 0.28.5", only: :dev, runtime: false},
-      {:mox, "~> 1.0", only: :test}
+      {:exvcr, "~> 0.13.4", only: :test}
     ]
   end
 end

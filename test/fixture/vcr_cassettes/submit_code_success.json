@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"code\":\"773642\",\"email\":\"rickhenry@rickhenry.dev\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/otp/confirm/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"idToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM3MjgwMjAsImlhdCI6MTY2MzcyNDQyMCwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiSUl1Z2t0YjRnVHpueUNfWDRLaTgxdyIsIm5iZiI6MTY2MzcyNDQyMCwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYifQ.9f-QV9QkJOrBZae-fDvY9KPALicR9KnWd1wVdAGUO0yq0n_neIFcpC7oOY-O6pFc-OYNuRPt-cxgqmzgPhNJHA\",\"refreshToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4MTA4MjAsImlhdCI6MTY2MzcyNDQyMCwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiU2VRb09WVXFjX3VYdUhvTXpyQndRUSIsIm5iZiI6MTY2MzcyNDQyMCwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYiLCJ1aWQiOiI1ODk3OWRlMS1iOTFiLTRhNzgtYmNkYi04MGY4YWEwZTIzYWUifQ.cXUvFxDDp-TNN-rZ3fn4vFE9a9fSBR2UoC2Rj2SYFv-whzc2xmKaiErGhrYjKdjRNTHFu6zASr498UGCe6hrXQ\"}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 01:40:22 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "840",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

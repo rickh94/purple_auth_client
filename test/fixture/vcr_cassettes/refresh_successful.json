@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"refreshToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4ODI0NjYsImlhdCI6MTY2Mzc5NjA2NiwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiU1FNcUFuTmZwTXZVSDB3SWg0d0VsQSIsIm5iZiI6MTY2Mzc5NjA2Niwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYiLCJ1aWQiOiJiMWFiNmFhMS1lNWU5LTRlYTgtOTIyZC0xMTBmYjA0N2ZiZWEifQ.8_YaDT8Bab65YERavy7pGCkqdynVrk0geaksoFNvdkFRrIRKJ8COJdkGk-MOIzndTHGIvXb4Z2s8ciKGJckXvA\"}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://purpleauth.com/token/refresh/eb1c4225-c76f-4eee-acfd-bb078f834e7f"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"idToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4MDAyNjgsImlhdCI6MTY2Mzc5NjY2OCwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiVEVGQ1NqUk10RVVwR19oaDJNWXpqZyIsIm5iZiI6MTY2Mzc5NjY2OCwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYifQ.C24OMETzJlTFRp-57IzVKHDltWqOCl7WaORkU35yHdoRW1X1MiObSQDTuY8MtzqQb5hue2AUzk02XlvvHxiYEg\",\"refreshToken\":\"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4ODI0NjYsImlhdCI6MTY2Mzc5NjA2NiwiaXNzIjoiaHR0cHM6Ly9wdXJwbGVhdXRoLmNvbS9hcHAvZWIxYzQyMjUtYzc2Zi00ZWVlLWFjZmQtYmIwNzhmODM0ZTdmIiwianRpIjoiU1FNcUFuTmZwTXZVSDB3SWg0d0VsQSIsIm5iZiI6MTY2Mzc5NjA2Niwic3ViIjoicmlja2hlbnJ5QHJpY2toZW5yeS5kZXYiLCJ1aWQiOiJiMWFiNmFhMS1lNWU5LTRlYTgtOTIyZC0xMTBmYjA0N2ZiZWEifQ.8_YaDT8Bab65YERavy7pGCkqdynVrk0geaksoFNvdkFRrIRKJ8COJdkGk-MOIzndTHGIvXb4Z2s8ciKGJckXvA\"}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 21 Sep 2022 21:44:28 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "840",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=15724800; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
